@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.child {
+  margin-top: 40px;
+}
+.child button {
+  padding: 10px 35px;
+  margin-right: 20px;
+  margin-left: 20px;
+  font-size: 24px;
+  background: #829dee;
+  border: 2px solid #edecec;
+  border-radius: 10%;
+}
+.child button:hover {
+  background: dodgerblue;
+  cursor: pointer;
+}
+.child button:active {
+  transform: translateY(4px);
+}
+.child h2 {
+  font-size: 28px;
+  padding: 10px 25px;
+  color: dodgerblue;
+}
